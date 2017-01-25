@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700);
+.btn {
+  display: inline-block;
+  color: #fff;
+  border: 2px;
+  border-style:solid;
+  background: #000;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+  letter-spacing: 2px;
+  transition: 0.2s;
+  margin:5px;
+}
+
+.navsize{
+  font-size: 1em;
+}
+.intro-header {
+    height: 855px;  
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sitzungszimmer_SVP.jpg/1280px-Sitzungszimmer_SVP.jpg') no-repeat center fixed; /*This is CSS3 backgrounds properties*/
+    background-size:cover; /*refer CSS3 Backgrounds*/
+    height: 855px;
+}
+.about-page{ height:855px;
+padding-top:50px;
+  padding-bottom:50px;
+text-align:left;
+   background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rotundan_-_Hellerup-2000.jpg/1024px-Rotundan_-_Hellerup-2000.jpg') no-repeat center fixed;
+    background-size:cover;
+    height: 855px;
+}
+.bg-overlay{margin-top: -50px;
+  background: rgba(255, 255, 255, 0.1);
+  height: 855px;}
+.bg-overlay1{margin-top: -50px;
+  background: rgba(255, 255, 255, 0.2);
+  height: 855px;}
+.bg-overlay2{margin-top: -50px;
+  background: rgba(255, 255, 255, 0.2);
+  height: 855px;}
+.header-home{font-size:3.2em; font-weight:900;
+   margin: 200px 20px 0px 20px;  
+   color:#fff;text-shadow:1.5px 0px #000;
+}
+h3{font-size:2em;
+   color:#fff; text-shadow:1px 0px #000;}
+.header-about{font-size:3em;color:#000;text-shadow:1px 0px #000;}
+.about-para{ font-size: 2.2em;color:#000;}
+.img{border-radius:50%;
+  boder-color:#000000;
+  border-style: solid;
+  border-width:1.22vw;
+}
+.pad-img{padding-top:100px;padding-left:150px;}
+.port-page{padding-top:50px;
+   padding-bottom:50px;
+  height: 855px;
+  background: url('https://41.media.tumblr.com/92e61775d4c3edcc5145936e3703d125/tumblr_nt5uo9fH9y1ud7rr3o1_1280.jpg') no-repeat center fixed;
+  background-size:cover;
+  text-align:center;
+}
+.header-portfolio{ font-size: 3em;}
+.para-portfolio{font-size: 2.3em;}
+.thumb-size{font-size: 2.2em;padding-top:20px;}
+.contact-page{
+  padding-top:50px;
+   padding-bottom:50px;
+  height: 682px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/d/d5/Rubber_duck_assisting_with_debugging.jpg') no-repeat center fixed;
+  background-size:cover;
+  text-align:left;
+}
+
+.connect-social-buttons{
+  display:block;
+  float:right;
+}
+@media screen and (max-width:1190px){
+  .connect-social-buttons{
+  display:block;
+  float:left;
+}
+}
+
+.header-contact{
+  font-size: 2.5em;
+  font-weight:900;
+}
+.email{font-size: 1.4em;}
+@media screen and (max-width:1190px){
+  .pad-img{ display: none;}
+  
+}
+@media screen and (max-width:332px){
+  body{background-color:#000;
+    font-family:Josefin Slab ;
+    font-size: 10px;font-weight=700;}
+} 
+
+@media screen and (min-width:332px and max-width:1600px){
+body{background-color:#00b2b3;
+    font-family:Josefin Slab;
+  font-size:30px;font-weight=700;}
+  
+}
+
+@media(max-width:704px){
+  ul.intro-social-buttons > li {
+        display: block; 
+    }
+  }
+.footer-class{
+  height:150px;
+  padding-top: 50px;
+  padding-bottom:20px;
+  background-color:#000;
+  text-align:left;
+   
+}
+
+.under{
+ 
+  font-size: 1.2em;
+  color:#fff;
+  text-decoration:underline;
+}
+body{background-color:#000;
+  font-family: Josefin Slab, Monospace;
+  font-weight=700;
+}
