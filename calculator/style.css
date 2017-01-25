@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Niconne);
+body{ text-align=center;
+  background:#999966;
+}
+h4{
+   font-family: 'Niconne', cursive;
+   font-weight:600;
+  color: #4d4d4d;
+}
+.textbox{
+   text-align: right;
+  width:212px;
+  height:50px;
+  background:#666666;
+  color:#fff;
+  margin-bottom:10px;
+}
+.btn{
+  width:50px;
+  text-align:center;
+  margin-top:5px;
+  color:#000;
+  background:#666666;
+  transition:0.2s;
+}
+.btn1{ background:#cc0000;
+}
+.btn2{background:#00cc00;}
+.btn3{ background:#4da6ff;}
+
+.txt{
+  color:#fff;
+  font-weight:900;
+}
+.calculator{
+  text-align:center;
+  width:250px;
+  border: 30px;
+  border-radius:10%;
+  padding: 5px 10px 20px 10px;
+  background:#f2e5ff;
+  box-shadow: -8px 8px 8px rgba(0,0,0,0.9); 
+  margin: 50px auto;
+}
