@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700);
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700);
+.button{
+  font-size: 00.9em;
+  display: inline-block;
+  border-style:solid;
+  text-shadow: 0px 0px 0px rgba(255,255,255,5);
+  box-shadow: 3px 3px 3px rgba(0,0,0,10);
+  letter-spacing: 2px;
+  transition: 0.2s;
+  margin:5px;
+}
+.whitetext{color:#fff;}
+/*#quote{
+ height:auto;
+  border-radius:20px;
+}*/
+body{ font-family: "Josefin Slab", Arial;}
+
+.gen-page{
+  height: 618px;
+  padding-top: 20px;
+  text-align:center;
+  background: url('https://i.imgur.com/wmlbSOD.jpg?1') fixed center;
+  background-size:cover;
+}
+.intro{
+  text-shadow: 3px 3px 3px rgba(0,0,0, 20);
+  font-size: 4em;
+}
+.intro-para{
+  padding-top:10px;
+  padding-bottom:5px;
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.quotetext{
+  font-size: 1.4em;
+  font-color: #333333;
+  font-weight:900;
+  text-align:center;
+  text-shadow: 1px 1px 1px rgba(51,51,51,5);
+}
+
+@media screen and (min-width:332px and max-width:1600px){
+.body-func{
+  text-align:center;
+  text-size:30px;
+}
+}
+@media screen and (max-width:332px){
+  body{
+    font-size: 10px;
+  }
+} 
